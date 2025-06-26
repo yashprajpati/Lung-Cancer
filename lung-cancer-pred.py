@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # Load trained model
-loaded_model = pickle.load(open('D:/Internship/Lung Cancer/lung.sav', 'rb'))
+loaded_model = pickle.load(open('lung.sav', 'rb'))
 
 # Prediction function
 def cancer_prediction(input_data):
